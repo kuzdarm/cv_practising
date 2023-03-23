@@ -1,0 +1,161 @@
+* {
+    font-family: "Monotype Corsiva", serif;
+    /**/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.gamespot.com/a/uploads/original/gamespot/images/2005/312/reviews/698444-927207_20051109_001.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: url(cursors/main.png), pointer;
+}
+
+h1 {
+    color: blue;
+    font-style: italic;
+    font-size: 16px;
+    margin: 10px 20px;
+}
+
+h2 {
+    color: lightgray;
+    font-style: italic;
+    font-size: 14px;
+    align-self: center;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+ul {
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.cv_body {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.top_frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom_frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.top {
+    max-height: 20px;
+    width: 100%;
+}
+
+.fancy_corner {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right_side {
+    display: flex;
+    flex-direction: column;
+}
+
+.fancy_border {
+    width: 20px;
+    height: 100%;
+}
+
+.page {
+    width: 460px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(228, 138, 36, 0.5), rgba(228, 138, 36, 0.5)),
+        url(img/design-space-paper-textured-background.jpg);
+    background-size: cover;
+
+}
+
+.page_block1 {
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px double #7b6244;
+    margin: 0 10px 20px;
+    padding: 10px 10px;
+}
+
+.cv_img {
+    width: 120px;
+    height: 120px;
+}
+
+.short_desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_block2 {
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 150px;
+    border: 4px double #7b6244;
+    margin: 0 10px 20px;
+    padding: 0px 0px 10px;
+}
+
+.skills {
+    font: "Monotype Corsiva", serif;
+    font-style: italic;
+    font-size: 14px;
+    padding: 0 20px 0px 20px;
+    list-style-type: none;
+    word-spacing: 1rem;
+}
+
+.page_block3 {
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    border: 4px double #7b6244;
+    margin: 0 10px 20px;
+}
+
+.certificates {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cert_icon {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(99, 56, 46);
+}
